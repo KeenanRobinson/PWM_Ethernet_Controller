@@ -1,0 +1,21 @@
+// Network configs:
+ip=192.168.0.132
+port=5000
+pre_test_connection=0
+no_start_on_no_conn=0
+start_with_no_conn=0
+
+// UI configs
+theme=awdark
+height=720
+width=800
+//Comments
+// ip - IP address of your peripheral device/arduino server
+// port - port of the peripheral device 
+// no_start_on_no_conn - prevents program startup when it does not detect the peripheral (1).
+// start_with_no_conn  - start the program without having to connect (1). Used for debugging the UI. 
+// pre_test_connection - deprecated. Was used to first check if there was a connection
+// theme - sets up the program theme. 
+//	   Available options: awdark, awlight, classic, vista, xpnative, default, winnative, clam, alt
+// height - saved height parameter of the UI window
+// width - saved width parameter of the UI window
